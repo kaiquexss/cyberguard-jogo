@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <a href="https://kaiquexss.github.io/cyberguard-jogo/">cyberguard-jogo</a>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>CyberGuard: Jogo de Cyber Segurança</title>
