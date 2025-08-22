@@ -58,12 +58,12 @@
     }
     .tab-btn[aria-selected="true"]{background:linear-gradient(135deg, #20345f, #1a2a50); border-color:#294077}
     .tab-btn:active{transform:translateY(1px)}
-
+<style>
     .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
     .muted{color:var(--muted)}
     .badge{padding:6px 10px;border-radius:10px;background:#0f214a;border:1px solid #273a6a;color:#cfe0ff;font-size:12px}
     .score{font-weight:800;color:var(--success)}
-
+<style>
     .btn{
       appearance:none;border:none;border-radius:12px;padding:10px 14px;font-weight:700;cursor:pointer;
       background:linear-gradient(135deg,var(--primary),#4f46e5);color:#091228;box-shadow:var(--shadow);
@@ -71,21 +71,21 @@
     .btn.secondary{background:#0c1630;color:var(--text);border:1px solid #1f2a46}
     .btn.ghost{background:transparent;border:1px dashed #294077;color:#bcd1ff}
     .btn:disabled{opacity:.5;cursor:not-allowed}
-
+<style>
     /* Quiz */
     .question{font-size:18px;margin:6px 0 12px}
     .answers{display:grid;gap:10px}
     .answers button{justify-content:flex-start}
     .answers .correct{outline:2px solid var(--success)}
     .answers .wrong{outline:2px solid var(--danger)}
-
+<style>
     /* Password Lab */
     .lab{display:grid;gap:12px}
     .progress{height:12px;border-radius:999px;background:#0b1430;border:1px solid #1f2a46;overflow:hidden}
     .bar{height:100%;width:0;background:linear-gradient(90deg,#ef4444,#f59e0b,#10b981);transition:width .25s}
     .rule{display:flex;align-items:center;gap:8px;color:#cdd9f7}
     .rule.pass{color:var(--success)}
-
+<style>
     /* Phishing */
     .mail{
       background:#0d1429;border:1px solid #233258;border-radius:14px;padding:0;overflow:hidden
@@ -95,7 +95,7 @@
     .flag{cursor:pointer;border-radius:6px;padding:2px 4px}
     .flag[data-found="true"]{background:rgba(248,113,113,.15);outline:1px dashed var(--danger)}
     .hint{font-size:13px;color:#b8c4e6}
-
+<style>
     footer{margin-top:24px;color:#9db1e6;font-size:13px}
     code.kbd{font-size:12px;padding:2px 6px;border-radius:6px;background:#0e1831;border:1px solid #22345d}
   </style>
@@ -112,7 +112,7 @@
       </div>
       <div class="pill" id="bestScorePill" title="Maior pontuação desta máquina">🏆 Recorde: <span id="bestScore">0</span></div>
     </header>
-
+<style>
     <div class="grid">
       <main class="card">
         <nav class="tabs" role="tablist" aria-label="Modos do jogo">
@@ -120,7 +120,7 @@
           <button class="tab-btn" role="tab" aria-selected="false" aria-controls="lab" id="tab-lab">Laboratório de Senhas</button>
           <button class="tab-btn" role="tab" aria-selected="false" aria-controls="phish" id="tab-phish">Detector de Phishing</button>
         </nav>
-
+<style>
         <!-- QUIZ -->
         <section id="quiz" role="tabpanel" aria-labelledby="tab-quiz" style="margin-top:14px">
           <div class="row" style="justify-content:space-between">
@@ -140,7 +140,7 @@
           </div>
           <p class="hint" id="tip" hidden></p>
         </section>
-
+<style>
         <!-- PASSWORD LAB -->
         <section id="lab" role="tabpanel" aria-labelledby="tab-lab" hidden style="margin-top:14px">
           <h2>Laboratório de Senhas</h2>
@@ -166,7 +166,7 @@
             </details>
           </div>
         </section>
-
+<style>
         <!-- PHISHING -->
         <section id="phish" role="tabpanel" aria-labelledby="tab-phish" hidden style="margin-top:14px">
           <h2>Detector de Phishing</h2>
@@ -193,7 +193,7 @@
           <p class="hint" id="phHint" hidden>Desconfie de <em>urgência</em>, <em>erros de ortografia</em>, <em>links encurtados</em> e <em>remetente estranho</em>.</p>
         </section>
       </main>
-
+<style>
       <aside class="card">
         <h3>Objetivo</h3>
         <p>Ganhe pontos ao acertar perguntas, criar senhas fortes e detectar golpes. Seu <strong>recorde</strong> fica salvo no navegador.</p>
@@ -207,7 +207,7 @@
         <p class="muted">Feito para trabalho escolar. Código 100% local, sem enviar dados.</p>
       </aside>
     </div>
-
+<style>
     <footer class="container" style="padding:0">
       <p>💡 Dica rápida: mantenha seus dispositivos atualizados, desconfie de anexos inesperados e ative a <strong>verificação em duas etapas</strong>.</p>
     </footer>
